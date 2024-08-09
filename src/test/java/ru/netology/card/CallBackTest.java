@@ -14,18 +14,20 @@ public class CallBackTest {
 
     @BeforeAll
     public static void setupAll() {
-        WebDriverManager.chromedriver().browserVersion("127.0.6533.99 ").setup();
+        WebDriverManager.chromedriver().setup();
     }
 
 
     @BeforeEach
     public void setUp() {
 
+        driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
+        driver.get("http://localhost:9999");
     }
 
     @AfterEach
