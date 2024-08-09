@@ -1,5 +1,3 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/cxo6q3g4q8j3c6tm?svg=true)](https://ci.appveyor.com/project/YuriNalivaiko/selenium)
-
 # Домашнее задание к занятию «2.1. Тестирование веб-интерфейсов»
 
 В качестве результата пришлите ссылку на ваш GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru).

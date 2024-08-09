@@ -14,7 +14,7 @@ public class CallBackTest {
 
     @BeforeAll
     public static void setupAll() {
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().browserVersion("127.0.6533.99 ").setup();
     }
 
 
